@@ -114,7 +114,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 **Observations**  
 - **Cluster counts (k=5):** 1630, 1359, 1274, 786, 686
 - As illustrated below
-![Player Clustering Results](images/kmeans3.png)
+![Player Clustering Results](Images/kmeans3.png)
 
 ---
 
@@ -127,7 +127,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 **Observations**  
 - **Cluster counts (k=5):** 2183, 1240, 920, 788, 604
 -  As illustrated below
-![Player Clustering Results](images/kmeansall.png)
+![Player Clustering Results](Images/kmeansall.png)
 
 ---
 
@@ -141,7 +141,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 - **Silhouette score:** `-0.554` (indicates poor global cluster structure for tested params)  
 - Produced many small clusters
 - As illustrated below
-![Player Clustering Results](images/kmeansall.png)
+![Player Clustering Results](Images/kmeansall.png)
 
 ---
 
