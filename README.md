@@ -114,7 +114,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 **Observations**  
 - **Cluster counts (k=5):** 1630, 1359, 1274, 786, 686
 - As illustrated below
-![Player Clustering Results](Images/kmeans3.png)
+![Player Clustering Resultss](Images/kmeans3.png)
 
 ---
 
