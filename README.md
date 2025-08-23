@@ -40,7 +40,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 
 ---
 
-### 1) Logistic Regression (`LogisticR.ipynb`)
+### 1) Logistic Regression
 **Purpose:** Classification (binary)
 
 **Results (test)**  
@@ -48,7 +48,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 
 ---
 
-### 2) Support Vector Machine — SVM (`SVM.ipynb`)
+### 2) Support Vector Machine — SVM
 **Purpose:** Classification (binary)
 
 **Typical parameters used**  
@@ -59,7 +59,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 - 
 ---
 
-### 3) K-Nearest Neighbors — KNN (`knn.ipynb`)
+### 3) K-Nearest Neighbors — KNN
 **Purpose:** Classification
 
 **Key parameters (defaults unless specified)**  
@@ -71,7 +71,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 
 ---
 
-### 4) Decision Tree (`DT+RF.ipynb`)
+### 4) Decision Tree 
 **Purpose:** Classification
 
 **Key parameters (common defaults)**  
@@ -82,7 +82,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 - **Accuracy:** `0.836`  
 ---
 
-### 5) Random Forest (`DT+RF.ipynb`)
+### 5) Random Forest 
 **Purpose:** Classification
 
 **Key parameters**  
@@ -94,7 +94,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 
 ---
 
-### 6) Linear Regression (`LinearR.ipynb`)
+### 6) Linear Regression 
 **Purpose:** Regression (predict a continuous target)
 
 **Key parameters**  
@@ -105,7 +105,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 - **R² (test):** `0.719`  
 ---
 
-### 7) K-Means — Clustering (`k-means-3-features.ipynb`)
+### 7) K-Means — Clustering 
 **Purpose:** Clustering (unsupervised) on a **3-feature** subset
 
 **Key parameters**  
@@ -114,11 +114,11 @@ Below, each model is documented **individually** with its **purpose**, **key par
 **Observations**  
 - **Cluster counts (k=5):** 1630, 1359, 1274, 786, 686
 - As illustrated below
-![Player Clustering Resultss](Images/kmeans3.png)
+![Player Clustering Results_3](Images/Kmeans3.png)
 
 ---
 
-### 8) K-Means — Clustering (`k-means-all-features.ipynb`)
+### 8) K-Means — Clustering 
 **Purpose:** Clustering on **all features**
 
 **Key parameters**  
@@ -127,11 +127,11 @@ Below, each model is documented **individually** with its **purpose**, **key par
 **Observations**  
 - **Cluster counts (k=5):** 2183, 1240, 920, 788, 604
 -  As illustrated below
-![Player Clustering Results](Images/kmeansall.png)
+![Player Clustering Results_All](Images/Kmeansall.png)
 
 ---
 
-### 9) DBSCAN — Density-based Clustering (`DBSCAN.ipynb`)
+### 9) DBSCAN — Density-based Clustering
 **Purpose:** Clustering (density-based), automatically finds arbitrary shapes/outliers
 
 **Key parameters**  
@@ -141,7 +141,7 @@ Below, each model is documented **individually** with its **purpose**, **key par
 - **Silhouette score:** `-0.554` (indicates poor global cluster structure for tested params)  
 - Produced many small clusters
 - As illustrated below
-![Player Clustering Results](Images/kmeansall.png)
+![Player Clustering Results_DB](Images/DBSCAN.png)
 
 ---
 
